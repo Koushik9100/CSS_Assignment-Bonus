@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:bisque;
+}
+.container {
+   
+    height: auto;
+    margin: 200px;
+    width:35%;
+    border-radius: 5px;
+    
+}
+.content-1 {
+    background-color: #ffffff;
+    padding: 35px;
+   height: 50%;
+   width: 100%;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.content-1 h3 {
+    color: #48aaa3;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-family: 'Hind', sans-serif;
+    letter-spacing: 1px;
+}
+.content-1 h4 {
+    color: #cddc7e;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.content-1 p {
+    color: #bbc1cb;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+.content-2 {
+    height: auto;
+    display: inline-flex;
+    width: 100%;
+    
+}
+.content-2-1 {
+   background-color: rgba(43,179,177,255);
+    display: inline-block;
+    padding: 30px;
+    width: 50%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+}
+button{
+    background-color: #bfdf32;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 70px ;
+    color: #f2ffb0;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 30px;
+}
+.content-2-1 h5 {
+    color: #c6fdfd;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.content-2-1 p{
+    color: #9de6ea;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.content-2-2 {
+    background-color: rgba(74,190,189,255);
+    display: inline-block;
+    padding: 30px;
+    width: 50%;
+    height: auto;
+    border-bottom-right-radius: 10px;
+}
+.content-2-2 h5 {
+    color: #e0feff;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.content-2-2 p {
+    color: #8ce2e3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+}
